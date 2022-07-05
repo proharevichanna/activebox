@@ -41,6 +41,9 @@ a {
 
 .menu-links {
     padding: calc((100px - 43px)/2) 32px;
+    transition: 0.4s;
+    transition-timing-function: ease-in;
+    outline: none;
 }
 
 .menu-links a {
@@ -49,6 +52,11 @@ a {
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.menu-links:hover {
+    padding-bottom: 32px;
+    border-bottom: 3px solid #BABBC5;
 }
 
 .promo {
