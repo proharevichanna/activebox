@@ -39,8 +39,12 @@ a {
     height: 100px;
 }
 
+.menu {
+    margin: 0;
+}
+
 .menu-links {
-    padding: calc((100px - 43px)/2) 32px;
+    padding: 39px 32px;
     transition: 0.4s;
     transition-timing-function: ease-in;
     outline: none;
@@ -55,7 +59,7 @@ a {
 }
 
 .menu-links:hover {
-    padding-bottom: 32px;
+    padding-bottom: 39px;
     border-bottom: 3px solid #BABBC5;
 }
 
