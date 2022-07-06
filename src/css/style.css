@@ -18,9 +18,20 @@ body {
     box-sizing: border-box;
 }
 
+.container-second {
+    padding: 126px 0 30px;
+}
+
 .flex-between {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-wrapp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 li {
@@ -66,8 +77,8 @@ a {
 .promo {
     width: 100%;
     height: 747px;
-    padding: 230px 170px 120px;
-    background-image: url(/ActiveBox/src/img/bg.svg );
+    padding: 230px 0 120px;
+    background-image: url(/src/img/bg.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,4 +118,48 @@ a {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.secong-page {
+    width: 100%;
+    height: 900px;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 370px;
+    height: 323px;
+    padding: 0 15px;
+    margin-bottom: 88px;
+    box-sizing: border-box;
+}
+
+.icon {
+    width: 100%;
+}
+
+.icon img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.h2 {
+    margin-top: 59px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D3033;
+}
+
+.description-little {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #6C7279;
 }
